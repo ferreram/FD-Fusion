@@ -27,8 +27,8 @@ Algorithm: [OpenCV](https://docs.opencv.org/3.3.1/d2/d85/classcv_1_1StereoSGBM.h
 
 pre_filter_cap = 63  
 sad_window_size = 3  
-p1 = sad_window_size*sad_window_size*4  
-p2 = sad_window_size*sad_window_size*32  
+p1 = sad_window_size\*sad_window_size\*4  
+p2 = sad_window_size\*sad_window_size\*32  
 min_disparity = 0  
 num_disparities = 128  
 uniqueness_ratio = 10  
