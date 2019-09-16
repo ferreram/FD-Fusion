@@ -25,17 +25,17 @@ Algorithm: [OpenCV](https://docs.opencv.org/3.3.1/d2/d85/classcv_1_1StereoSGBM.h
 
 Settings:
 
-pre_filter_cap = 63
-sad_window_size = 3
-p1 = sad_window_size*sad_window_size*4
-p2 = sad_window_size*sad_window_size*32
-min_disparity = 0
-num_disparities = 128
-uniqueness_ratio = 10
-speckle_window_size = 100
-speckle_range = 32
-disp_max_diff = 1
-full_dp = 1
+pre_filter_cap = 63  
+sad_window_size = 3  
+p1 = sad_window_size*sad_window_size*4  
+p2 = sad_window_size*sad_window_size*32  
+min_disparity = 0  
+num_disparities = 128  
+uniqueness_ratio = 10  
+speckle_window_size = 100  
+speckle_range = 32  
+disp_max_diff = 1  
+full_dp = 1  
 
 sgbm = cv2.StereoSGBM_create(min_disparity, num_disparities, sad_window_size,p1,p2,disp_max_diff, pre_filter_cap,
                 uniqueness_ratio, speckle_window_size, speckle_range, full_dp)
@@ -47,14 +47,14 @@ Algorithm: [pyelas](https://github.com/jlowenz/pyelas)
 
 Settings:
 
-disp_min              = 0;     disp_max              = 255;  support_threshold     = 0.95;
-support_texture       = 10;    candidate_stepsize    = 5;    incon_window_size     = 5;
-incon_threshold       = 5;     incon_min_support     = 5;    add_corners           = 1;
-grid_size             = 20;    beta                  = 0.02; gamma                 = 5;
-sigma                 = 1;     sradius               = 3;    match_texture         = 0;
-lr_threshold          = 2;     speckle_sim_threshold = 1;    speckle_size          = 200;
-ipol_gap_width        = 5000;  filter_median         = 1;    filter_adaptive_mean  = 0;
-postprocess_only_left = 0;     subsampling           = 0;
+disp_min              = 0;     disp_max              = 255;  support_threshold     = 0.95;  
+support_texture       = 10;    candidate_stepsize    = 5;    incon_window_size     = 5;  
+incon_threshold       = 5;     incon_min_support     = 5;    add_corners           = 1;  
+grid_size             = 20;    beta                  = 0.02; gamma                 = 5;  
+sigma                 = 1;     sradius               = 3;    match_texture         = 0;  
+lr_threshold          = 2;     speckle_sim_threshold = 1;    speckle_size          = 200;  
+ipol_gap_width        = 5000;  filter_median         = 1;    filter_adaptive_mean  = 0;  
+postprocess_only_left = 0;     subsampling           = 0;  
 
 ## Reference
 If you find our work  useful in your research, please consider citing our paper:
