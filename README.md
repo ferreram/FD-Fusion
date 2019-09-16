@@ -11,7 +11,7 @@ The estimation of disparity maps from stereo pairs has many applications in robo
 ## Reference
 If you find our work  useful in your research, please consider citing our paper:
 ```
-@inproceedings{depthbenchmark2019,
+@inproceedings{FerreraFDFusion2019,
   title     = {Fast Stereo Disparity Maps Refinement By Fusion of Data-Based And Model-Based Estimations},
   author    = {Ferrera, Maxime and Boulch, Alexandre and Moras, Julien},
   booktitle = {International Conference on 3D Vision (3DV)},
