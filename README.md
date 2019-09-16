@@ -15,7 +15,7 @@ The estimation of disparity maps from stereo pairs has many applications in robo
 
 Algorithm: [CUDA - SGM](https://github.com/dhernandez0/sgm)
 
-Settings:
+##### Settings:
 
 8 path directions: P1=6, P2=96
 
@@ -23,7 +23,7 @@ Settings:
 
 Algorithm: [OpenCV](https://docs.opencv.org/3.3.1/d2/d85/classcv_1_1StereoSGBM.html) v. 3.3.1.
 
-Settings:
+##### Settings:
 
 pre_filter_cap = 63  
 sad_window_size = 3  
@@ -45,7 +45,7 @@ sgbm = cv2.StereoSGBM_create(min_disparity, num_disparities, sad_window_size,p1,
 
 Algorithm: [pyelas](https://github.com/jlowenz/pyelas)
 
-Settings:
+##### Settings:
 
 disp_min              = 0;     disp_max              = 255;  support_threshold     = 0.95;  
 support_texture       = 10;    candidate_stepsize    = 5;    incon_window_size     = 5;  
