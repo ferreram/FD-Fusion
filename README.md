@@ -2,6 +2,9 @@
 
 Repository for the code related to the paper: Fast Stereo Disparity Maps Refinement By Fusion of Data-Based And Model-Based Estimations - 3DV 2019
 
+# Paper
+
+Paper is accessible [here](https://hal.archives-ouvertes.fr/hal-02326896)
 
 ## Usage Samples
 
