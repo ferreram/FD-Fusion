@@ -15,6 +15,7 @@ python train_kitti.py --test_inputs_file data_files/kitti_2015_train_inputs_lr_s
 ### Pretrained models
 
 LR : stereo_block pretrained models
+
 CUDA and LR : fusion block pretrained models
 
 ## Abstract
